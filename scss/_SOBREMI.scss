@@ -1,0 +1,40 @@
+$colorbody: lightcyan;
+$centrado: center;
+$width100: 100%;
+$pimgpersonal: 5px 10px 10px 10px;
+$fontnombre: fantasy;
+$fontsize45: 45px;
+$ptitulonombre: 20px;
+$colortitulo: #1e4242;
+$bgcolortitu: #9ee0e0;
+$bordetitulo: 2px solid #65d6a6;
+$dfontfamily: auto;
+$dtamanho: 25px;
+$djustificado: justify;
+$dpaddingr: 20px;
+
+body {
+	background-color:$colorbody;
+}
+
+.tituloNombre {
+	text-align:$centrado;
+	padding:$ptitulonombre;
+	color:$colortitulo;
+	border-bottom:$bordetitulo;
+	background-color:$bgcolortitu;
+	font-family:$fontnombre;
+	font-size:$fontsize45;
+}
+
+.imgPersonal {
+	width:$width100;
+	padding:$pimgpersonal;
+}
+
+.descripcion {
+	font-family:$dfontfamily;
+	font-size:$dtamanho;
+	text-align:$djustificado;
+	padding-right:$dpaddingr;
+}

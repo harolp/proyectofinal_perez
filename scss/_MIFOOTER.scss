@@ -1,0 +1,77 @@
+$wlogofooter: 100px;
+$wlogotwitter: 42px;
+$wlogofacebook: 50px;
+$wlogoinstagram: 50px;
+$hlogotwitter: 42px;
+$hlogofacebook: 50px;
+$hlogoinstagram: 50px;
+$wlogotelefono: 50px;
+$hlogotelefono: 50px;
+$wlogocorreo: 50px;
+$hlogocorreo: 50px;
+$colorfooter: #0191B4;
+$colorcopyright: #093b58;
+$negrita: bold;
+$pcopyright: 10px 0px 10px 30px;
+$cletracopyright: black;
+$footercentrado: center;
+
+
+
+.logoFooter {
+	width:$wlogofooter;
+}
+
+.twitterFooter {
+	width:$wlogotwitter;
+	height:$hlogotwitter;
+}
+
+.facebookFooter {
+	width:$wlogofacebook;
+	height:$hlogofacebook;
+}
+
+.instagramFooter {
+	width:$wlogoinstagram;
+	height:$hlogoinstagram;
+}
+
+.wsFooter {
+	width:$wlogotelefono;
+	height:$hlogotelefono;
+}
+
+.correoFooter {
+	width:$wlogocorreo;
+	height:$hlogocorreo;	
+}
+
+.bgFooter {
+	background-color:$colorfooter;
+}
+
+.copyright {
+	background-color:$colorcopyright;
+	font-weight:$negrita;
+	padding:$pcopyright;
+	color:$cletracopyright;
+
+}
+
+.columna1 {
+	text-align:$footercentrado;
+}
+
+.columna2 {
+	text-align:$footercentrado;
+}
+
+.columna3 {
+	text-align:$footercentrado;
+}
+
+.footerTitulos {
+	font-weight:$negrita;
+	text-align:$footercentrado;
+}

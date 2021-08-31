@@ -1,0 +1,21 @@
+$colorservicios: #1e4242;
+$pservicios: 20px;
+$bgcolorservicios: #9ee0e0;
+$bordeservicios: 2px solid #65d6a6;
+$fontservicios: fantasy;
+$size45: 45px;
+$pbloqueservicios: 10px 20px 10px 40px;
+
+.tituloServicios {
+	color:$colorservicios;
+	text-align:$centrado;
+	padding:$pservicios;
+	background-color:$bgcolorservicios;
+	border-bottom:$bordeservicios;
+	font-family:$fontservicios;
+	font-size:$size45;
+}
+
+.bloqueServicios {
+	padding:$pbloqueservicios;
+}

@@ -1,0 +1,29 @@
+$tamanhologo: 100px;
+$bgcolornav: #0191B4;
+$flexend: flex-end;
+$paddingsc: 30px;
+$negrita: bold;
+$bordenav: 6px solid #65d6a6;
+$colorletra: lightblue;
+
+.logoPrincipal {
+	width:$tamanhologo;
+}
+
+.bg-light {
+    background-color: $bgcolornav !important;
+    border-bottom:$bordenav;
+}
+
+.navbar-collapse {
+	justify-content:$flexend;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	padding:$paddingsc;
+	color:$colorletra;
+}
+
+.navbar-nav {
+	font-weight:$negrita;
+}

@@ -1,0 +1,36 @@
+$contactosize: 45px;
+$contactocentrado: center;
+$contactofamily: fantasy;
+$contactocolor: #1e4242;
+$bgcolorcontacto: #9ee0e0;
+$pcontacto: 20px;
+$bordecontacto: 2px solid #65d6a6;
+$pformulario: 40px 80px 20px 80px;
+$wformulario: 80%;
+$mlformulario: 70px;
+$wmapa: 100%;
+$hmapa: 100%;
+$pmapa: 40px 30px 30px 90px;
+
+
+.tituloContacto {
+	font-size:$contactosize;
+	text-align:$contactocentrado;
+	font-family:$contactofamily;
+	color:$contactocolor;
+	background-color:$bgcolorcontacto;
+	padding:$pcontacto;
+	border-bottom:$bordecontacto;
+}
+
+.formulario {
+	padding:$pformulario;
+	width:$wformulario;
+	margin-left:$mlformulario;
+}
+
+.mapaFormulario {
+	width:$wmapa;
+	height:$hmapa;
+	padding:$pmapa;
+}
